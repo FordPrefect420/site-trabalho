@@ -1,0 +1,77 @@
+body {
+    font-family: Comic Sans MS, cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #4CAF50; /* Cor de fundo geral da página */
+    background-image: url('sorvete.png'); /* Imagem de fundo */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir a tela */
+    background-position: center; /* Centraliza a imagem de fundo */
+}
+
+.content {
+    text-align: center;
+    max-width: 1200px; /* Largura máxima para o conteúdo */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência para melhorar a legibilidade do texto */
+    border-radius: 10px; /* Arredondamento dos cantos */
+}
+
+.logo {
+    max-width: 300px;
+    position: relative;
+    margin-bottom: 50px; /* Espaçamento abaixo da logo */
+}
+
+.logo img {
+    max-width: 100%; /* Garante que a imagem da logo seja responsiva */
+}
+
+.logo-text {
+    text-align: center;
+    margin-bottom: 10px; /* Espaçamento abaixo do texto */
+}
+
+.logo-text .top-text {
+    font-size: 48px; /* Tamanho do texto superior */
+}
+
+.logo-text .bottom-text {
+    font-size: 64px; /* Tamanho do texto inferior */
+}
+
+.side-panel {
+    width: 100%; /* Ocupa toda a largura disponível */
+    background-color: #4CAF50; /* Cor de fundo verde */
+    display: flex;
+    flex-direction: column; /* Ajuste para organizar botões em coluna */
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.side-panel button {
+    margin: 20px; /* Espaçamento entre os botões */
+    padding: 20px 40px;
+    font-size: 36px;
+    background-color: #fff; /* Cor de fundo dos botões */
+    color: #4CAF50; /* Cor do texto dos botões */
+    border: 2px solid #4CAF50; /* Borda dos botões */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.side-panel button:hover {
+    background-color: #4CAF50; /* Mudança de cor no hover */
+    color: white; /* Mudança de cor no hover */
+}
