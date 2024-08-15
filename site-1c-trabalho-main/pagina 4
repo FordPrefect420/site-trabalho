@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sobre Nós</h1>
+        <div class="about">
+            <div class="text">
+                <p>Começamos com uma simples loja de sorvetes caseiros, agora avançamos para o serviço de entrega com pedidos online, onde você pode provar nossos sorvetes sem sair de casa!</p>
+            </div>
+            <div class="image">
+                <img src="img/sorvete-grande.jpg" alt="Sorvete Grande">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

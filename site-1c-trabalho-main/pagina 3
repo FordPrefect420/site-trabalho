@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cardápio</h1>
+        <div class="menu">
+            <div class="section">
+                <h2>Sabores</h2>
+                <ul>
+                    <li>Chocolate 1R$</li>
+                    <li>Baunilha 1R$</li>
+                    <li>Morango 1R$</li>
+                    <li>Brigadeiro 1R$</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Casquinhas</h2>
+                <ul>
+                    <li>Pequenas 1R$</li>
+                    <li>Grandes 2R$</li>
+                    <li>Gigantes 4R$</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
