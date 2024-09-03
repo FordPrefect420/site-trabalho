@@ -92,3 +92,24 @@ li {
     max-width: 50%;
     height: auto;
 }
+.secret-button {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+.secret-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: red;
+    font-size: 10px;
+    text-decoration: none;
+    border: 1px solid red;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
+}
+
+.secret-button a:hover {
+    background-color: darkred;
+}
